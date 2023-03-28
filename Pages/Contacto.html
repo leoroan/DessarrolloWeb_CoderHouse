@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Images/favicon_bsas.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 
@@ -28,12 +28,16 @@
         </ul>
 
         <form action="">
-            <label for="fname">Nombre:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Apellido:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="lname">Mensaje:</label><br>
-            <textarea name="message" rows="10" cols="30" placeholder="Ingresá tu mensaje acá!"></textarea><br>
+            <fieldset>
+                <legend> hola soy una legend de MI formulario</legend>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="lname">Mensaje:</label><br>
+                <textarea name="message" rows="10" cols="30" placeholder="Ingresá tu mensaje acá!"></textarea><br>
+            </fieldset>
+
             <button type="submit"> submit</button>
         </form>
 
