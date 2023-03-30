@@ -2,10 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: Alkatra, serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecera {
+    background-color: beige;
 }
 
 a {
     text-decoration: none;
+    text-align: center;
 }
 
 fieldset {
@@ -14,4 +25,9 @@ fieldset {
 
 li{
     display: inline;
+}
+
+iframe{
+    border-radius: 50%;
+    margin: 50px ;
 }
