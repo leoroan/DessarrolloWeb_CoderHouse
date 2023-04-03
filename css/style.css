@@ -2,32 +2,75 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
     font-family: Alkatra, serif;
 }
 
-h1{
+body {
+    background-color: aliceblue;
+}
+
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.cabecera {
-    background-color: beige;
+h2 {
+    color: cornflowerblue;
 }
 
 a {
     text-decoration: none;
+    color: cornflowerblue;
+}
+
+.banner {
+    background-image: url(../Images/66205.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    margin: 1px auto 1px;
+}
+
+.banner h1 {
     text-align: center;
 }
 
-fieldset {
-    border-color: blue;
-}
-
-li{
+.main_container {
     display: inline;
+    margin: 10px;
 }
 
-iframe{
-    border-radius: 50%;
-    margin: 50px ;
+nav {
+    float: left;
+    margin-right: 50px;
+}
+
+li {
+    margin: 10px;
+}
+
+.display_NewsGral {
+    height: 100px;
+}
+
+.display_NoticesGral {}
+
+.display_categories {
+    text-align: center;
+}
+
+.display_organigrama {
+    /* width: 100%;
+    border-color: red;
+    border-style: solid; */
+}
+
+figure{
+    display: block;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
 }
