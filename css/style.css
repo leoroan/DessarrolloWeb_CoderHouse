@@ -3,74 +3,35 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Alkatra, serif;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+/* navigation */
+nav {
+    float: right;
+    margin: 25px;
+    background-color: antiquewhite;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
 }
 
 body {
-    background-color: aliceblue;
+    height: 100vh;
 }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-h2 {
-    color: cornflowerblue;
-}
-
-a {
-    text-decoration: none;
-    color: cornflowerblue;
-}
-
-.banner {
-    background-image: url(../Images/66205.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 150px;
-    margin: 1px auto 1px;
-}
-
-.banner h1 {
-    text-align: center;
-}
-
-.main_container {
-    display: inline;
-    margin: 10px;
-}
-
-nav {
-    float: left;
-    margin-right: 50px;
-}
-
-li {
-    margin: 10px;
-}
-
-.display_NewsGral {
-    height: 100px;
-}
-
-.display_NoticesGral {}
-
-.display_categories {
-    text-align: center;
-}
-
-.display_organigrama {
-    /* width: 100%;
-    border-color: red;
-    border-style: solid; */
-}
-
-figure{
-    display: block;
-}
-
-footer {
+main {
+    background-image: url(/Images/3856314.jpg);
     width: 100%;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
+    height: 100%;
+    
 }
