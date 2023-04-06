@@ -8,15 +8,27 @@
 }
 
 p {
-    color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 2px black;
     font-size: 25px;
+    color: burlywood;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 3px black;
     font-size: 35px;
+    color: burlywood;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+    color: burlywood;
 }
 
 /* navigation */
@@ -24,22 +36,23 @@ nav {
     margin: 25px;
     text-align: center;
     background-color: rgba(255, 255, 255, .6);
+    border: 2px solid violet;
 }
 
 nav a {
-    text-decoration: none;
     font-size: 1.5rem;
     color: #fff;
     text-shadow: 2px 2px 5px black;
 }
 
 nav a:hover {
-    color: blue;
+    color: lightskyblue;
 }
 
 nav li {
     list-style-type: none;
     display: inline;
+    margin: 0 10px 0 10px;
 }
 
 /* body */
@@ -73,6 +86,14 @@ main .mainAside {
     letter-spacing: 5px;
 }
 
+.banner h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    letter-spacing: 5px;
+}
+
 /* footer */
 
 .foot {
@@ -86,9 +107,31 @@ main .mainAside {
 /*  areas  */
 
 .cont {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .8);
     margin: 10px 15px;
     padding: 10px 15px;
-    height: 700px;
-    /* width: 100vw; */
+    height: 1000px;
+}
+
+.cont button{
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cont span{
+    color: red;
+    font-size: 35px;
+}
+
+.cont button:hover {
+    background-color: lightskyblue;
+
+}
+
+/* form */
+.contact_form {
+    width: 25%;
 }

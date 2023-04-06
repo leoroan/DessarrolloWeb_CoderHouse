@@ -19,16 +19,17 @@
         <div class="banner">
             <img src="Images/pancho_sinbg.png" alt="Logo con imagen de un pancho">
             <h1> Bienvenido!</h1>
+            <h2> fun - finanzas</h2>
         </div>
     </header>
 
     <!-- NAV -->
     <nav>
         <ul>
-            <li> <a href="#">Contacto</a></li>
-            <li> <a href="#">Servicio</a></li>
-            <li> <a href="#">Acerca</a></li>
-            <li> <a href="#">Otro link útil!</a></li>
+            <li> <a class="link" href="#pag2">La App!</a></li>
+            <li> <a class="link" href="#pag4">Contacto</a></li>
+            <li> <a class="link" href="#pag1">Acerca</a></li>
+            <li> <a class="link" href="#pag3">Otro link útil!</a></li>
         </ul>
     </nav>
 
@@ -37,37 +38,68 @@
         <aside class="mainAside">
             <h1> Be Welcome!</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis aut eius consectetur nemo! Odio
-                consequuntur, explicabo laudantium ipsa quos unde possimus animi? Dolor, eaque sint. Explicabo, aperiam?
-                Explicabo, eum sint.
+                Una suerte de herramienta financiera, para hacer las cuentas... un poquito mas fácil!
             </p>
-            
+
         </aside>
     </main>
 
-    <section class="cont">
-        <h2 id="pag1" class=""> titulo seccion</h2>
+    <!-- Seccion de página -->
+    <section id="pag1" class="cont cont_pag1">
+        <h1 class=""> Acerca de mi...</h1>
         <p>
-            algo dentro de mi contenedor de seccion
+            Esta idea surgio como ( particularmente solucion a un problema personal ) una herramienta para realizar
+            cálculos, sin morir en el intento!
         </p>
+
+        <span>se actualizara!...</span>
+        <button> <a href="#">ir al cielo!</a></button>
     </section>
-    <section class="cont">
-        <h2 id="pag1" class=""> titulo seccion</h2>
+
+    <!-- Seccion de página -->
+    <section id="pag2" class="cont cont_pag2">
+        <h1 class=""> La Aplicacion! </h1>
         <p>
-            algo dentro de mi contenedor de seccion
+            Acá va a pasar algo bueno!
         </p>
+        <span> coming soon!</span>
+        <button> <a href="#">ir al cielo!</a></button>
     </section>
 
+    <!-- Seccion de página -->
+    <section id="pag3" class="cont cont_pag3">
+        <h1 class=""> esto es de útilidad! </h1>
+        <p>
+            Cosas interesantes, de utilidad, para vos!
+        </p>
+        <span> + Pronto!!</span>
+        <button> <a href="#">ir al cielo!</a></button>
+    </section>
 
+    <!-- Seccion de página -->
+    <section id="pag4" class="cont cont_pag4">
+        <h1 class=""> contactame, cuentame que te gustaria agregar/cambiar!</h1>
+        <form class="contact_form" action="post">
+            <fieldset>
+                <label for="nombre" >Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="tu nombre!" required><br>
 
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="tu apelldio" required><br>
 
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder=" tu mensaje importante!" required></textarea><br>
 
-
+                <input type="submit" value="Mandamelo">
+            </fieldset>
+        </form>
+        <button> <a href="#">ir al cielo!</a></button>
+    </section>
 
     <!-- FOOTER -->
     <footer>
         <div class="foot">
-            <h2> soy un footer con copyrigth </h2>
+            <h2> soy un footer con copyrigth - All Rights Reserved! </h2>
         </div>
     </footer>
     <!-- <script src="Scripts/script.js"></script> -->
