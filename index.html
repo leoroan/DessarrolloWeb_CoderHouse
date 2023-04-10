@@ -17,9 +17,11 @@
     <!-- CABECERA -->
     <header>
         <div class="banner">
-            <img src="Images/pancho_sinbg.png" alt="Logo con imagen de un pancho">
-            <h1> Bienvenido!</h1>
-            <h2> fun - finanzas</h2>
+            <div class="foto">
+                <img src="Images/pancho_sinbg.png" alt="Logo con imagen de un pancho">
+            </div>
+            <h1 class="titulo_banner"> Fun - finanzas !</h1>
+            <div class="break"></div>
         </div>
     </header>
 
@@ -53,17 +55,36 @@
         </p>
 
         <span>se actualizara!...</span>
-        <a class="boton" href="#">ir al cielo!</a>
     </section>
 
     <!-- Seccion de página -->
     <section id="pag2" class="cont cont_pag2">
         <h2 class=""> La Aplicacion! </h2>
-        <p>
-            Acá va a pasar algo bueno!
-        </p>
-        <span> coming soon!</span>
-        <a class="boton" href="#">ir al cielo!</a>
+        <div class="contenedor">
+
+            <label for=""> tus ingresos: </label>
+            <input type="number">
+
+            <label for=""> tus gastos:</label>
+            <input type="number">
+
+            <label for=""> % retorno: </label>
+            <input type="number">
+
+            <label for=""> monto a invertir: </label>
+            <input type="number">
+
+            <label for=""> con interes compuesto? </label>
+            <input type="checkbox" name="intcto" id="intcto">
+
+            <label for=""> retorno mensual: </label>
+            <input type="number">
+
+            <label for=""> gran total: </label>
+            <input type="number">
+
+
+        </div>
     </section>
 
     <!-- Seccion de página -->
@@ -73,7 +94,6 @@
             Cosas interesantes, de utilidad, para vos!
         </p>
         <span> + Pronto!!</span>
-        <a class="boton" href="#">ir al cielo!</a>
     </section>
 
     <!-- Seccion de página -->
@@ -93,8 +113,9 @@
                 <input type="submit" value="Mandámelo">
             </fieldset>
         </form>
-        <a class="boton" href="#">ir al cielo!</a>
     </section>
+
+    <a href="#" class="boton"> ir al cielo!</a>
 
     <!-- FOOTER -->
     <footer>

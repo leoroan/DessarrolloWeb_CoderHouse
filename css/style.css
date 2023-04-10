@@ -70,27 +70,53 @@ main .mainAside {
 }
 
 /* banner */
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-.banner img {
+.foto {
+    position: relative;
     width: 15%;
-    float: left;
+    height: 15%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.foto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.foto img {
+    display: block;
+    width: 100%;
+    /* height: auto;
+    border-radius: inherit;
+    z-index: 2; */
 }
 
 .banner h1 {
-    text-align: center;
-    font-size: 75px;
+    font-size: 95px;
     color: white;
-    padding: 65px 25px;
-    text-shadow: 5px 10px 4px black;
+    text-shadow: 5px 10px 2px black;
     letter-spacing: 5px;
+    align-self: center;
 }
 
 .banner h2 {
-    text-align: center;
     font-size: 35px;
     color: white;
     text-shadow: 5px 5px 2px black;
     letter-spacing: 5px;
+    border: 2px solid red;
 }
 
 /* footer */
@@ -109,28 +135,68 @@ main .mainAside {
     background-color: rgba(255, 255, 255, .8);
     margin: 10px 15px;
     padding: 10px 15px;
-    height: 1000px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
-.cont .boton{
+.cont p {
+    width: 100%;
+    display: block;
+}
+
+.cont h2 {
+    width: 100%;
+    height: 15%;
+    display: block;
+}
+
+.cont span {
+    color: red;
+    font-size: 35px;
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: block;
+}
+
+/* boton */
+
+.boton {
     border-radius: 4px;
     background-color: white;
     border: 1px solid black;
     padding: 5px 5px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-bottom: 15px;
 }
 
-.cont span{
-    color: red;
-    font-size: 35px;
-}
-
-.cont .boton:hover {
+.boton:hover {
     background-color: lightskyblue;
-
 }
 
 /* form */
 .contact_form {
     width: 25%;
+}
+
+/* la app */
+
+.cont .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.contenedor input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
