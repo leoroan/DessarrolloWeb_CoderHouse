@@ -121,14 +121,6 @@ aside p {
     align-self: center;
 }
 
-.banner h2 {
-    font-size: 35px;
-    color: white;
-    text-shadow: 5px 5px 2px black;
-    letter-spacing: 5px;
-    border: 2px solid red;
-}
-
 /* footer */
 
 .foot {
